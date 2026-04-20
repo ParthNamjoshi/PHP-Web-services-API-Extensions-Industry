@@ -13,8 +13,6 @@ Order processing system
 API testing using Postman
 Standardized error handling
 
----
-
 Concepts Covered
 
 -REST API Architecture
@@ -35,4 +33,3 @@ Authentication
 -Update Product
 -Delete Product
 -Orders APIs
-
