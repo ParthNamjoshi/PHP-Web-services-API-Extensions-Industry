@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase /assessments/Web_services_API_Extensions/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+Redirect 302 /test http://google.com
